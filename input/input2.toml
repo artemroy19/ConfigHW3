@@ -1,0 +1,11 @@
+name = "Math Test"
+a = 100
+b = 20
+c = ".+ a b" 
+d = ".- a b" 
+f = ".* a b" 
+g = ".min a b" 
+
+
+
+

@@ -1,0 +1,25 @@
+[server]
+host = "localhost"
+port = 8080
+threads = 4
+max_connections = 100
+
+[database]
+type = "PostgreSQL"
+host = "db-server"
+port = 5432
+user = "admin"
+password = "password123"
+
+[logging]
+level = "DEBUG"
+file = "server.log"
+maxsize = 100  #In MB
+
+[security]
+ssl_enabled = false
+allowed_ips = ["192.168.1.100", "10.0.0.1"]
+
+[performance]
+cache_size = "100MB" # пример строки
+cache_enabled = true
